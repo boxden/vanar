@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div align="center">
+   <form>
+    <input type="button" value="Войти на сайт" onClick="Input()">
+   </form>
+  </div>
+
+  <script type="text/javascript">
+  function Input(){
+  var  login_ok = false;
+  var  user_name = "";
+  var  password = "";
+  var  user_name = prompt("Логин","");
+  var  user_name = user_name.toLowerCase();
+  var  password = prompt("Пароль","");
+  var  password = password.toLowerCase();
+  if (user_name=="vanar48" && password=="56357411") {
+   login_ok=true;
+   window.location="index2.html";
+  }
+
+
+  if (login_ok==false) alert("Неверный логин или пароль!");
+  }
+  </script>
+
+</body>
+</html>

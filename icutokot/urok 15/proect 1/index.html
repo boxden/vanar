@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+
+<nav>
+  <div>
+    <ul>
+      <li><a href="vanar.md" onclick="handler()">vanar</a></li>
+      <li><a href="youtube.com">YouTube</a></li>
+      <li><a href="learn.javascript.ru">JavaScript</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<script>
+  function handler(){
+    windows.event.preventDefault();
+    console.log("EVent!!", window.event.target);
+    console.log("EVenT!!! captured ib" ,  window.event.currentTarget);
+  }
+</script>
+
+
+</body>
+</html>

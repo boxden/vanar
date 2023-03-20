@@ -1,0 +1,16 @@
+#box {
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;
+  position: absolute;
+  top: 0;
+  left:0;
+  cursor: pointer;
+}
+.mark{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 100%;
+  position: absolute;
+}

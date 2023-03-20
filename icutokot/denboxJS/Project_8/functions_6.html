@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    div{
+      width: 20px; height: 20px;
+      background-color: red; margin: 10px;
+      float: left;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    var n =0;
+    var t = setInterval( addDiv, 500);
+    function addDiv(){
+      document.body.innerHTML += "<div></div>";
+      n++;
+      if ( n >= 10 ) clearInterval(t);
+    }
+  </script>
+</body>
+</html>

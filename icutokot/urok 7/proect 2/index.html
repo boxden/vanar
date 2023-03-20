@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+const coef = 21.50;
+var bill = "Trebie sa achitati 0200.00MDL.";
+  var pos = bill.search("MDL") - 7;
+
+  var suma = bill.substr( pos, 7 );
+
+  var suma_euto = suma / coef;
+</script>
+
+</body>
+</html>

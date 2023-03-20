@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+          div{ border: 1px solid red;}
+          .table{ display: table}
+          .table-row{ display: table-row}
+          .table-cell{ display: table-cell; padding: 10px;}
+  </style>
+</head>
+<body>
+  <script>
+  var table = "";
+  table += `<div class="table"`;
+  for (var row = 1; row <= 9; row++) {
+    table += `<div class="table-row"`;
+    for (var col = 1; col <= 9; col++) {
+      table += `<div class="table-cell"`;
+      table += col + " x " + row + " = " + row * col;
+      table += `</div>`;
+    }
+    table += `</div>`;
+  }
+  table += `<div>`;
+  document.body.innerHTML += table;
+  </script>
+//  <div class="table">
+    <div class="table-row">
+      <div class="table-cell">
+        A
+      </div>
+      <div class="table-cell">
+        B
+      </div>
+    </div>
+  </div>//
+</body>
+</html>

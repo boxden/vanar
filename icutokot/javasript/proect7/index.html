@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+
+const price_beer = 15;
+const price_fish = 75;
+const price_nuts = 150;
+
+var money = prompt( "Сколько денег у тебя?" )
+
+// beer
+if( money >= price_beer ) {
+  var avg = parseInt(money / price_beer)
+  console.log( "У тебя хватает на пиво" )
+alert( "У тебя хватает на:  " + avg + '   пива' )
+}
+//fish
+if( money >= price_fish ){
+  var avg2 = parseInt(money / price_fish)
+  console.log("У тебя хватает на 1 кг рыбы")
+  alert( "У тебя хватает на:  " + avg2 + '   Рыбы' )
+}
+
+if( money >= price_nuts ){
+  var avg3 = parseInt(money / price_nuts)
+  console.log( "У тебя хватает на 100г орешек" )
+  alert( "У тебя хватает на:  " + avg3 + '   Орешек' )
+}
+</script>
+
+
+</body>
+</html>

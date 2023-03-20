@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+
+class Message{
+  constructor( title, text, author, date ){
+    this.Dtitle = title;
+    this.text = text;
+    this.author = author;
+    this.date = date;
+  }
+  show(){
+    console.log(this.title, this.text, this.author, this.date)
+  };
+
+get title(){
+   return this.Dtitle.length;
+}
+set title( value ){
+  if( value.length > 2 ){
+    this.Dtitle = value;
+  }
+  else{
+    alert("Слишком мало букв")
+  }
+}
+
+
+};
+
+var p = new Message ( "Hello" , "ES6!" , "Hello Es6 technology!", "08.11.1985" )
+p.title = "H"
+alert( p.title );
+
+</script>
+
+</body>
+</html>

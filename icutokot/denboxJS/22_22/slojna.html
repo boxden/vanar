@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+ var a = 10;
+ var b = 11;
+ var c = 12;
+ var x,y,z;
+ do {
+   y =b++; // y <- 11, b <- 12
+  while (b--<c){ //b <- 11 // 1 ( 1 - < , 2 --, while())
+   c++;
+   do {
+     y--;
+   } while (y<b && y > a);
+   }
+ }while (x<a)
+   console.log( a,b,c, '-' ,x,y,z);
+// 10 11 12 "-" undefined 11 undefined
+  </script>
+</body>
+</html>

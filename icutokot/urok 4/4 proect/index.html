@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+
+var size = prompt("Какое у вас разрешение экрана")
+
+var c = prompt( "div color" );
+
+switch (size) {
+    case "600": document.body.innerHTML =  `<div style="width: 1280px;height: 600px; background-color: ${c};">`; break;
+    case "1000": document.body.innerHTML = `<div style="width: 1280px;height: 1000px; background-color:${c};">`; break;
+    case "1600": document.body.innerHTML = `<div style="width: 1280px;height: 1600px; background-color:${c};">;`; break;
+
+  default: alert("Такого разрешение не сущуствует")
+
+}
+
+
+</script>
+
+
+</body>
+</html>

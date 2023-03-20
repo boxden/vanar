@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+<script>
+
+var images = [
+  'http://blah1.jpg'
+  "photos/blah1.jpg"
+]
+
+for( var index in images ){
+  var url = images[ index ];
+  console.log( index, url );
+
+  var parts = url.split("/");
+  var name =  parts.pop();
+  console.log( name );
+
+  parts = name.split(".");
+  var format = parts.pop();
+  console.log( index, url, name, format );
+}
+
+</script>
+
+</body>
+</html>

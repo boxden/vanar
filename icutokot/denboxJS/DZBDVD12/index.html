@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  function pasuser(form) {
+  if (form.id.value=="228") {
+  if (form.pass.value=="1337") {
+  alert ( "Вы успешно зашли на сайт")
+  }
+  else {
+  alert("Неверный Пароль")
+  }
+  }
+  else {  alert("Логин или Пароль неверный")
+  }
+  else { alert("Неверный Логин")
+  }
+  }
+  </script>
+
+
+  <table bgcolor="white" cellpadding="5" border="5">
+  <tr>
+    <td colspan="2">
+      <center>
+        <h1>
+          <i>
+            <b>Авторизация</b>
+          </i>
+        </h1>
+      </center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h1>
+        <i>
+          <b>Логин:</b>
+        </i>
+      </h1>
+    </td>
+    <td>
+      <form name="login">
+        <input
+        name="id" type="text">
+      </td>
+    </tr>
+  <tr>
+    <td>
+      <h1>
+        <i>
+          <b>Пароль:</b>
+        </i>
+      </h1>
+    </td>
+    <td>
+      <input name="pass"
+  type="password">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <center>
+        <input type="button" value="Войти"
+  onClick="pasuser(this.form)">
+      </center>
+    </td>
+    <td>
+      <center>
+        <br>
+        <input
+  type="Reset">
+    </form>
+    </td>
+  </tr>
+    </table>
+      </center>
+</body>
+</html>
