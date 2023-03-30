@@ -1,0 +1,16 @@
+ul {
+	list-style: none;
+	font-size: 25px;
+	font-family: Arial;
+	border-radius: 50px;
+    background-image: url(images/bg5.jpg);
+	background-repeat: no-repeat;
+}
+ul>li{
+	float: left;
+    margin: 15px 4px;
+}
+ul>li a{
+	text-decoration: none;
+	
+}

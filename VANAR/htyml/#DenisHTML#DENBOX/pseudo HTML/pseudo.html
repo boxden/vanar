@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pseudo html</title>
+    <style>
+		body{
+			background: aqua /*Цвет заднего фона*/
+		}
+		ul{
+			background-color: darkorange; /*Цвет колонки у текста фона*/
+		    list-style:none; /*Без точек (Cleat CSS)*/
+			padding: 20px;  /*Отступы от стенки*/
+		}
+		a{
+			color: black; /* Цвет для текста */
+			text-decoration: none; /* без подчёркивания */
+			font-family: Verdana ; /*Шрифт текста*/
+			font-size: 20px; /*Отступы от теста(от друг друга)*/
+			transition: 0.5s; /*Для плавного перехода цвета(можно не только к цвету)*/
+			background-color: beige;/*Цвет колонки текста*/
+			width: 400px; /*Ширина колонки*/
+			display:block; /*Превратить в блок*/
+		}
+		a:hover{ /*Для выделения*/
+			color: blue; /*Цвет текста*/
+		}
+		a:before{
+			content:"....";/*Для того чтобы сделать символы перед текстом*/
+			background-image:url(images/Ok-icon.png);/*Картинка вместо фигур*/
+			color: transparent;/*Невидимый текст*/
+			background-repeat:no-repeat;/*Без повтора фона*/
+		}
+		/* :after */
+		a:after{
+			content:"....";/*Пустой текст для вставки картинки*/
+			background-image:url(images/happy-icon.png);/*Картинка в место фигур*/
+			color: transparent;/*Невидимый текст*/
+			background-repeat:no-repeat;/*Без повторения фона*/
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<!-- ul>li*7>a -->
+	<ul>
+		<li><a href="">HTML</a></li>
+		<li><a href="">CSS</a></li>
+		<li><a href="">Javascript</a></li>
+		<li><a href="">PHP</a></li>
+		<li><a href="">MySQL</a></li>
+		<li><a href="">Apache</a></li>
+		<li><a href="">Nginx</a></li>
+	</ul>
+</body>
+</html>

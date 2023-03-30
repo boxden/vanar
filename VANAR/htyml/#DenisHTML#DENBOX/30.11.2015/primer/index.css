@@ -1,0 +1,75 @@
+
+body {
+	background-color: cadetblue;
+}
+
+#center {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+}
+
+#big {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	border: 2px;
+	border: 10px solid white;
+	border-right-color:transparent;
+	border-left-color: transparent;
+	position: absolute;
+	top: -85px;
+	left: -85px;
+	animation: rot 5s infinite linear;
+}
+
+#smoke {
+	width: 100px;
+	height: 100px;
+	border: 10px solid blue;
+	border-radius: 100%;
+	border-top-color:transparent;
+	border-bottom-color: transparent;
+	position: absolute;
+	top:15px;
+	left: 15px;
+	animation: rot2 5s infinite linear;
+}
+#smoke2 {
+	width: 50px;
+	height: 50px;
+	border: 10px solid red;
+	border-radius: 100%;
+	border-left-color:transparent;
+	border-right-color: transparent;
+	position: absolute;
+	top:15px;
+	left: 15px;
+	animation: hot 3s infinite linear;
+}
+@keyframes rot{
+	0%{
+		transform: rotate(0deg)
+	}
+	100%{
+		transform: rotate(360deg)
+	}
+}
+@keyframes rot2{
+	0%{
+		transform: rotate(0deg)
+	}
+	100%{
+		transform: rotate(-720deg)
+	}
+}
+@keyframes hot{
+	0%{
+		transform: rotate(0deg)
+	}
+	100%{
+		transform: rotate(-360deg)
+	}
+}

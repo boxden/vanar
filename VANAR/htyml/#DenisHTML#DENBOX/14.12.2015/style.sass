@@ -1,0 +1,38 @@
+$radius: 200px
+$seg-width: 5px
+$color: green
+body
+	background-color: black
+
+.seg
+	width: $radius/2 + $seg-width /*105px*/
+	height: $radius/2 + $seg-width /*105px*/
+	// background-color: red
+	overflow: hidden
+	position: absolute
+	-webkit-transform-origin: 100% 100%
+
+.seg:after
+	content: "..." /*Что будет написано внутри*/
+	display: block
+	border: $seg-width/*5px*/ solid $color /*green*/
+	border-left-color: transparent /*Без Цвета*/
+	border-bottom-color: transparent /*Без Цвета*/
+	border-right-color: transparent /*Без Цвета*/
+	width: $radius /*200px*/
+	height: $radius /*200px*/
+	border-radius: 100% /*Окружность*/
+	-webkit-transform: rotate(36deg) /*Поворот круга*/
+
+@-webkit-keyframes anim-seg-1
+	from
+		opacity: 0 
+	to 
+		opacity: 1
+
+
+@for $n from 1 to 36
+	.seg:nth-child( #{$n} )
+		-webkit-transform:rotate(10deg * $n)
+		-webkit-animation: anim-seg-1 2.5s infinite
+		-webkit-animation-delay: 0.05s * $n

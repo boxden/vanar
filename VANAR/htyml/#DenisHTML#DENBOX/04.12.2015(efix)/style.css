@@ -1,0 +1,62 @@
+body{
+	background:black;
+}
+#preload {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 1px solid red;
+}
+
+#background {
+	width: 400px;
+	height: 400px;
+	background-image: url(images/a9.jpg);
+	background-repeat: no-repeat;
+	background-size: 400px 400px;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	opacity: 0.5;
+	position: absolute;
+}
+.neon-dark-border{
+	border-color: rgb(21.73.155);
+}
+.neon-light-border{
+	border-color: rgb(76 206 255);
+}
+.horizontal-center{
+	position: absolute;
+	left: 0;
+}
+.vertical-center{
+	position: absolute;
+	top: 0;
+}
+.circle{
+	border-radius: 100%;
+}
+
+#hell {
+	height: 200px ;
+	width: 200px ;
+	border: 2px solid red;
+	border-radius: 100%;
+	position: absolute;
+}
+
+#hell2 {
+	width: 200px;
+	height: 200px;
+	border: dotted red;
+	overflow: hidden;
+	position: absolute;
+	top: 11s; 
+	transform-origin: 0 0;
+}
+
+

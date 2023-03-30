@@ -1,0 +1,75 @@
+/* line 1, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+body {
+  background-color: black; }
+
+/* line 4, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  position: absolute;
+  border-radius: 100%;
+  left: 50%;
+  bottom: 50%; }
+
+/* line 14, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:after {
+  content: "..."; }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(1) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(2) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(3) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(4) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(5) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(6) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(7) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(8) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(9) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(10) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(11) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(12) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(13) {
+  -webkit-transform: rotate(0deg); }
+
+/* line 17, D:/#DenisHTML#DENBOX/14.12.2015/preloaderb/styleb.sass */
+.load:nth-child(14) {
+  -webkit-transform: rotate(0deg); }
+
+/*# sourceMappingURL=styleb.css.map */

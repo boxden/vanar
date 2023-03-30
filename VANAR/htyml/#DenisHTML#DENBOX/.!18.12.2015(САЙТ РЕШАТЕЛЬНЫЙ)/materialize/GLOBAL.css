@@ -1,0 +1,131 @@
+
+header{
+    background-image:url(images/bg.jpg)
+}
+
+nav{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.my-border{
+    border: 1px solid white;
+    border-radius: 20%
+}
+
+.df-button{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    line-height:inherit;
+}
+
+.df-button:hover{
+    color: #eda649 !important;
+    background-color: white;
+}
+
+.icon-left{
+    margin-right: 10px;
+}
+
+.df-text{
+    font-size: 60px !important;
+    color: #f0bf39;
+}
+
+.df-text2{
+    text-align: center;
+}
+
+.df-text5{
+    font-size: 31px !important;
+    margin-top: 2%;
+    color: #f0bf39;
+}
+
+.compass {
+    color: #FFAE00;
+    font-size: 65px;
+    margin-bottom: 50px;   
+}
+
+.content {
+    padding-left: 13%;
+    padding-right: 13%;
+    font-family: 'Open Sans',sans-serif,Arial,Helvetica;
+    color: #999;
+}
+
+.get_more {
+    color: #FFB500;
+}
+
+.icon {
+    float: left;
+    font-size: 17px;
+    color: #FFAE00;
+}
+
+.icon-block {
+    position: relative;
+}
+
+.my-icon-left {
+    float: left;
+    padding: 20px;
+}
+
+.h4 {
+    font-family: 'Open Sans',sans-serif,Arial,Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    margin-right: 100px;
+}
+
+.content2 {
+    line-height: 25px;
+}
+
+body{
+    font-family: 'Open Sans',sans-serif,Arial,Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+}
+.color {
+    color: #091850;
+}
+
+#dofollow-video {
+    background-image: url(images/png.png);
+    color:white;
+}
+
+.banner-parallax-1 {
+    background-color: #091850;
+    height:600px
+}
+
+.section-title {
+    position: relative;
+    text-align: center;
+}
+
+
+
+.video_container {
+    
+}
+
+.section-subtitle {
+    text-align: center;
+    font-family: 'Open Sans',sans-serif,Arial,Helvetica;
+}
+
+.iconj {
+    line-height: 3;
+    font-size: 34px;
+    margin-left: 50%;
+}

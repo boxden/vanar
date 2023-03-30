@@ -1,0 +1,116 @@
+@charset "utf-8";
+#menu {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: black;
+    width: 1000px;
+    height: 50px;
+    padding: 1px;
+    display: block;
+    position: fixed;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu a {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#menu>ul>li {
+    float: left;
+    margin: 7px 0 6px;
+    position: relative;
+}
+
+#menu>ul>li>a {
+    line-height: 32px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 7px 15px;
+    transition: background-color .1s;
+}
+
+#menu>ul>li:hover>a {
+    color: #fff;
+    background-color: #aaa;
+    transition: background-color .1s, color .1s;
+}
+
+#menu .menu-drop>a {
+    border-radius: 4px 4px 0 0;
+    padding-right: 10px;
+}
+
+#menu .menu-label {
+    background: url(images/menu-drop1.png) no-repeat right;
+    transition: background .1s;
+    padding-right: 15px;
+}
+
+#menu .menu-drop:hover .menu-label {
+    background: url(images/menu-drop2.png) no-repeat right;
+    transition: background .1s;
+}
+
+#menu .menu-right {
+    float: right;
+}
+
+#menu li:hover #menu-home {
+    background-image: url(images/menu-home2.png);
+    transition: background-image .1s;
+}
+
+#menu ul ul {
+    background-color: #3e85a5;
+    border-radius: 0 0 4px 4px;
+    padding: 4px 0;
+    position: absolute;
+    top: 32px;
+    left: -5000px;
+    min-width: 100%;
+    z-index: 100;
+    opacity: 0;
+}
+
+#menu .menu-right:hover ul {
+    left: auto;
+    right: 0;
+}
+
+#menu li:hover ul {
+    left: 0;
+    opacity: 1;
+    transition: opacity .1s;
+}
+
+#menu ul ul li {
+    white-space: nowrap;
+}
+
+#menu ul ul a {
+    font-size: 14px;
+    color: #fff;
+    padding: 6px 15px;
+    display: block;
+    transition: background-color .1s, color .1s;
+}
+
+#menu ul ul a:hover {
+    color: #3e85a5;
+    background-color: #fff;
+    transition: background-color .1s, color .1s;
+}
+body {
+    background-image: url(images/page-background.jpg);
+    width: 2000px;
+    height: 2000px;
+}

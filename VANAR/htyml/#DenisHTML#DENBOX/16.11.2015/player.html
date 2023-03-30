@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Player</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<style>
+		ul{
+			list-style:none;
+		}
+		.small{
+			display: block;
+			width: 30px; height: 30px;
+            background: #63b6db; 
+            background: -moz-linear-gradient(top, #63b6db 0%, #309dcf 100%); 
+            background: -webkit-linear-gradient(top, #63b6db 0%,#309dcf 100%); 
+            background: linear-gradient(to bottom, #63b6db 0%,#309dcf 100%); 
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b6db', endColorstr='#309dcf',GradientType=0 );
+			margin: 2px;
+			line-height: 30px;
+			margin-top: 20px;
+			text-align: center;
+			color:currentColor
+		}
+		.big{
+			width: 60px; height: 60px;
+			display: block;
+			background: #63b6db; 
+            background: -moz-linear-gradient(top, #63b6db 0%, #309dcf 100%);
+            background: -webkit-linear-gradient(top, #63b6db 0%,#309dcf 100%);
+            background: linear-gradient(to bottom, #63b6db 0%,#309dcf 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b6db', endColorstr='#309dcf',GradientType=0 );
+			line-height: 60px;
+			margin: 5px;
+			text-align: center;
+			color: firebrick;
+		}
+		li{
+			float: left 
+		}
+		.big:hover{
+            background: #cc0000;
+            background: -moz-linear-gradient(top, #cc0000 0%, #cc0000 100%);
+            background: -webkit-linear-gradient(top, #cc0000 0%,#cc0000 100%);
+            background: linear-gradient(to bottom, #cc0000 0%,#cc0000 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0000', endColorstr='#cc0000',GradientType=0 );
+			color: blue;
+		}
+		.small:hover{
+            background: #eab92d;
+            background: -moz-linear-gradient(top, #eab92d 0%, #c79810 100%);
+            background: -webkit-linear-gradient(top, #eab92d 0%,#c79810 100%);
+            background: linear-gradient(to bottom, #eab92d 0%,#c79810 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eab92d', endColorstr='#c79810',GradientType=0 );
+			color:green;
+		}
+	</style>
+</head>
+<body>
+	<ul>
+		<li><a class="small" href=""><i class="fa fa-fast-backward"></i></a></li>
+		<li><a class="small" href=""><i class="fa fa-backward"></i></a></li>
+		<li><a class="big"   href=""><i class="fa fa-play"></i></a></li>
+		<li><a class="small" href=""><i class="fa fa-forward"></i></a></li>
+		<li><a class="small" href=""><i class="fa fa-fast-forward"></i></a></li>
+	</ul>
+</body>
+</html>

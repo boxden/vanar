@@ -1,0 +1,32 @@
+	@-webkit-keyframes run {   /*Кадры анимации*/
+		0% {
+			margin-left: 0px;
+		}
+		50% {
+			margin-left: 300px;
+		    -webkit-filter:hue-rotare(180deg) blur(10px);
+				    filter:hue-rotare(180deg) blur(10px);
+		}
+		100% {
+			margin-left: 0px;
+		}
+	}
+	
+	@keyframes run {   /*Кадры анимации*/
+		0% {
+			margin-left: 0px;
+		}
+		50% {
+			margin-left: 300px;
+			-webkit-filter:hue-rotare(180deg);
+				    filter:hue-rotare(180deg);
+		}
+		100% {
+			margin-left: 0px;
+		}
+	}
+	
+	img {
+		-webkit-animation: run 5s infinite;
+		animation: run 5s infinite;
+	}

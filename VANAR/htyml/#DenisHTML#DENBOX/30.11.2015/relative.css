@@ -1,0 +1,19 @@
+
+#1 {
+		width: 100px;
+		height: 200px;
+		background-color: black;
+}
+
+#2 {
+		width: 100px;
+		height: 200px;
+		position: relative;
+		background-color: blue;
+}
+
+#3 {
+		width: 100px;
+		height: 200px;
+		background-color: black;
+}

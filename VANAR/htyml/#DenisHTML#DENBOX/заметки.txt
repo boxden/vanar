@@ -1,0 +1,390 @@
+ 
+сайт для генератора шаблоноф (http://bg.siteorigin.com/)
+  
+html:4t (contrl+alt+enter)
+
+Атрибуты и элементы : Обязательные атрибуты атрибут:
+
+-(SRC -> img , href -> a, link)
+-global/universal ( id - identificator, class, - Для стилей , lang - Код языка )
+-optional ( width , height - img , border - table , ... ) 
+-specific ( bgcolor -> table, tr ,td , body , aling -> h1-h6 ,p, img , table ,... u(x), i(x))
+
+<table border="1" border=10></table> !!! no doubles (НЕ ДУБЛИРОВАТЬ ) 
+<img src="winter 1.jpg" > !!! valus in quotes (ОБЯЗАТЕЛЬНО В КОВЫЧКАХ)
+
+
+ELEMENTS
+* Forbidden parent-child ( hx-hx : h1>h2 , h6>h1, p>p,)
+* Required parent-child ( ul>li , table>tr>td, html>head+body,...)
+ <!-- --> ( Contrl + Shift + / ) 
+Larem.... ( Contrl + alt + enter )
+<p align="justify">
+Создать коталог продуктов 
+
+<!-- SEMATIC HTML -->
+
+<!-- MICROFORMATS / SNIPPETS -->
+
+<!-- SEO , SM, DEVICES -->
+MICROFORMATS _! - Schema.org
+RDF
+XFN
+hxxxxxxx
+vxxxxxxx
+OG - на соц сетях
+--->
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\на сейчас\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                                                          h1 - название орнганизации 
+							  h2 - Слоган
+
+
+							  img- logo
+
+							  p.. - описание
+
+							  a - director
+							  h5 - год
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+<body itemscope itemtype="https://schema.org/Organization" >
+structured Data Testing Tool
+
+https://developers.google.com/structured-data/testing-tool/
+OG- open graph 
+[odnoconface]
+
+
+block
+inline
+Блочные h1-h6 . p.br.hr.ul.li
+
+div- universal block 
+
+span- universal inline container
+
+HTML5-живой стандарт хаштиэмэль 
+HTML5
+Семантикаматичные тэги 
+Автономная работа						webref.ru
+3D/Гарфика и эффекты
+Мультимедиа
+Производительность и интеграция
+CSS 3
+Сематика - тэги 
+Тэги HTML5
+<main>- содержимое не должно содержать типовые блоки вроде шапка сайта , подвал , навигация ...
+
+<header>-Начало
+
+<fooret>-конец
+
+<article>-привычный материал\ важный
+
+<nav>-выделяет\главный
+
+<figcaption>-выделяет важные фотки картинки
+
+<section>-
+
+<progres>-загрузка
+
+<meter>-тоже самое
+
+<wbr>-умный перенос
+
+<canvas>-прямоугольнык при помощи него можно рисовать
+на дом - 
+htmlbook.ru/html/video-загрузить видео на свой сайт 
+htmlbool.ru/html/input/type
+html 5 meta tags 
+
+CSS
+Cascading Style Sheets
+он дополняет html 
+CSS 1..3 (CSS3)
+HTML - 10 - 15 свойств
+CSS - 100 - 200 свойств
+Global + Universal
+bgcolor-(table.body)
+h1 -> table->tr->td
+синтаксист html 
+<tag attr="value">
+property:value;
+
+Способы добавление css стилей 
+CSS 
+1) inline
+2) global
+3) external
+
+Формула добавление стилей по первому методу 
+
+<tag	 style="CSS" >
+CONTENT
+</tag>
+
+!есть некоторые способы CSS передаются только текущему элементу , а не которые передаются по наследству!
+
+<tag	style="CSS'>
+
+   <child>
+   </child>
+
+</rag>
+
+Display
+DEFAULT STYLES (Browser)- user agent
+USER STYLES
+INHERITED STYLES
+
+CSSLin
+htmlbook.ru/css
+ keepvid
+
+<video controls="controls">-для видео , кнопки
+	<source src="">
+</video>
+
+после title
+<style>
+
+	GLOBAL STU|YLES
+	selector{
+	    prop:value;
+	}
+</style>
+Есть различия 1
+1) tag
+
+
+div*9 универсальные коробки
+body{
+
+}- Используется для привязки коробки body
+component-na dom
+Beautify
+Brackets Color Palette
+Brackets Icons
+Brackets Outline List
+Brackets Synapse
+CSSLint
+Emmet
+Extract for Brackets (Preview)
+Nu Markup Checker for Brackets
+True Ocean - Base16
+ 
+.a.zA.Z0.9_-
+even - чётное
+<div class="even">- привязка
+Псевдо селектор это дополнительные селектор :pseudo
+- structural (:first-child , :last-child , :nth-child(nomer) ,....)
+
+developer.mozilla.org-запомнить сайт 
+
+-state
+ (:hover, :active ,:empty,:focus,:...)
+-logic
+ (:not(selector) )
+-(speudo elements)
+:before ,:after,:first-line,:first-letter
+
+!!!! чаще всего псевдо селекторы пишутся сразу после селектора должно быть без пробелов 
+a:first-child{
+
+}
+ul>li*7>a 
+coveloping.com
+
+.box-shadow-preview{ 
+    height: 200px; 
+    width: 500px; 
+    position: relative; 
+    background-color: #FFFFFF; 
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #DDDDDD; 
+    border-radius: 0px; 
+    box-shadow: 10px 12px 13px -5px #777777; егоо надо копировать
+
+ДЗ/Домашние Задание
+webref.ru/css - категории
+ 
+18.11.2015
+
+1) Grouping
+sell,sel2,sel3{
+
+}
+
+a,b,li{
+   color:red;
+}
+
+2) neighbour
+sell+sel2+sel3{
+
+}
+
+p+p+a{
+   color:red;
+}
+
+<div class ="green"></div>
+<div class ="green"></div>
+<a></a>
+<div class ="green"></div>
+ .green+green+a{
+ color:red
+}
+3) тип селекции / direct descendant
+
+sell>sel2>sel3{
+
+}
+
+<sel1>
+ <sel2>
+  <sel3>
+  </sel3>
+</sel2>
+</sel1>
+
+<ul>
+	<li>
+		<a></a>
+	</li>
+</ul>
+<a></a>
+
+4) Комбенированый селектор (context )
+
+sell sel2 sel3{
+
+}
+5)пересечение(intersect)
+
+sel1sel2sel3{
+
+}
+
+a:hover{
+
+}
+p.red{
+}
+<p class="green"></p>
+<p class="green"></p>
+<p class="red"></p>
+<p class="red"></p>
+<p class="green"></p>
+
+<a class="green"></a>
+<a class="red"></a>
+<a class="green"></a>
+
+6) селектор атрибута (attribute)
+
+[attribute=value]{
+
+}
+
+[width=300]
+{
+ color:red;
+}
+
+	ul#main-menu>li*5>a
+	
+	ul#secondary-menu>li*7>a
+
+font-weight:normal; без жирности
+
+Домашние щадание 
+free html templates 
+free-css.com
+взять любой шаблон и поменять его под свой вкус 
+
+
+
+-webkit-filter: (обработка текстов картинок некий фильтр ) 
+ newton disk---- rotare смена цветов 
+ css3->
+filter.transform.transition.animation.box-shadow.text-dow...
+vendor prefix 
+-webkit-
+-moz-
+-o-
+-IE-
+-ms-
+
+autoprefixer
+href - сыллка
+src - рисунок
+
+
+pure css загрузка на чистом css-се 
+
+
+Идиницы измерения 
+length
+width . height , margin . padding. fint-size ....
+
+1) css units
+-absolute (fixed)
+ *px
+ *cm
+ *mm
+ *in
+ *pc
+ *pt
+-relative
+ *% -процент измеряется всегда к отношения к родителя , всегда меняется от родительского илемента ю
+ *em -размер стандасртного шрифта родителя 
+ *rem - root - берёт размер шрифта от корнекого родителя 
+ *ch характер символа - она работает как ем но относитеся только к цифрам 0...9
+ * vh -wiewport 1 height 
+ * vw - wiewport 1 width
+ *vmax . vmin он всегда будет искать где больше размер относится к вмакс 
+ ----------------------------------------------------
+идиницы измерения angle 
+----------------------------------------------------
+ * deg - degree (360 deg) 
+ ----------------------------------------------------
+colors :
+ - name (blue . yellow) ... ~100 colors
+ - #xxx - hex - 1024 colors #redgreenblue #rgb (0....9A...F) #000 < black 
+ - #rrggbb - hex6 - 16 Million colors ( true colors ) 
+ - rgb ( r,g,b ) 0..255
+ - rgba (r,g,b,a) a - 0..1 
+
+ ---
+ - hsl( h,s,l ) 
+ - hsla( h,s,l,a) 
+----------------------------------------------------
+font awesome - для иконок 
+coveloping.com - для 
+archiveicons.com - для иконок
+na htmlbook.ru 
+display table 
+http://0.s3.envato.com/files/22444282/preview-590x300.jpg - дз 
+http://codepen.io/
+в css3 есть 4 вида 
+-static
+-relutive
+-absolute
+-fixed
+по умолчанию стоит статично
+в процессе вёрстки выдаёт недостатки 
+к примеру:
+1)кноки прыгают от элементов 
+2)animation лучше не делать в статике 
+будет грузить элементы ( будет лагать сайт)
+относительная схема . сходится к следующему 
+относительный элемент относится к статику 
+обсолютно позоционированый элемент поподает в другой слой , при тех же координатах в которых он находился в других слоях. тес9 тем самым он остаются как прежде 
+если у обсолютного элементы есть не статичный то координаты этого будут мериться не от края родителя а от координатов 
+3) вид базецонирования
+наследует всё от обсалютного кроме одного элемент зафиксирован в координтах которые не будут меняться не зависимо от таких дейсвий как : прокрутка . изменения действий . дт.
+во всех z-index(глубина) по умолчанию они имеют 0 . если ставил на 1 -> 2 
+оттттттоорги

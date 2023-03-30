@@ -1,0 +1,35 @@
+/* line 3, D:/#DenisHTML#DENBOX/07.12.2015(SAS)/circelar/style.sass */
+h1 {
+  color: red;
+  font-family: import; }
+
+/* line 6, D:/#DenisHTML#DENBOX/07.12.2015(SAS)/circelar/style.sass */
+body {
+  background-color: black; }
+
+/* line 10, D:/#DenisHTML#DENBOX/07.12.2015(SAS)/circelar/style.sass */
+#preloader {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px dotted red;
+  border-radius: 100%;
+  top: 400px;
+  left: 400px; }
+  /* line 18, D:/#DenisHTML#DENBOX/07.12.2015(SAS)/circelar/style.sass */
+  #preloader .child1 {
+    width: 90px;
+    height: 90px;
+    border: 1px solid green;
+    border-radius: 100%; }
+    /* line 23, D:/#DenisHTML#DENBOX/07.12.2015(SAS)/circelar/style.sass */
+    #preloader .child1:hover {
+      border: 1px solid blue; }
+  /* line 25, D:/#DenisHTML#DENBOX/07.12.2015(SAS)/circelar/style.sass */
+  #preloader .child2 {
+    width: 80px;
+    height: 80px;
+    border: 1px solid blue;
+    border-radius: 100%; }
+
+/*# sourceMappingURL=style.css.map */

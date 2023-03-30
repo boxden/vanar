@@ -1,0 +1,43 @@
+.my-block{
+	background-color: tomato;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid black;
+}
+.my-block2{
+	background-color: tomato;
+	color: white;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 2px solid black;
+	line-height: 500px;
+	text-align: center;
+}
+.my-block3{
+	background-color: tomato;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 200px;
+}
+.my-block4{
+	background-color: tomato;
+	color: blue;
+	border: 3px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 50px;
+}
+.my-block5{
+	background-color: tomato;
+	color: blue;
+	border: 3px solid red;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+body{
+	background-color: #F1F1F1;
+}

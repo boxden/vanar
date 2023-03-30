@@ -1,0 +1,55 @@
+@charset "utf-8";
+#menu2 {
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 5px;
+    background-image: url(images/bg5.jpg);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 60px;
+	padding: left;
+}
+#menu2 ul {
+    list-style: none;
+    padding: 0;
+}
+#menu2 a {
+    font-size: 15px;
+    text-decoration: none;
+}
+#menu2>ul>li {
+    float: left;
+    margin: 15px 4px;
+}
+#menu2>ul>li>a {
+    line-height: 30px;
+    color: #fff;
+    padding: 7px 15px;
+}
+#menu2 #menu-home {
+    padding: 7px 20px;
+    background-image: url(images/menu-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body {
+	
+}
+ul{
+	border-bottom: none;
+}
+li{
+	border-bottom: 1px;
+}
+#hot {
+	list-style: none;
+}
+#rot {
+	list-style: none;
+}
+#op{
+	
+}
+#super {
+	line-height: 75px;
+}

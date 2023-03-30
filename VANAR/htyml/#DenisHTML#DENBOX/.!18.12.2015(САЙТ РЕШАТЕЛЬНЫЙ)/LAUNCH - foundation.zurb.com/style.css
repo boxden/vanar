@@ -1,0 +1,19 @@
+.top-bar-left,.top-bar-right{
+	width: auto;
+}
+.top-bar a{
+	line-height: 43px !important;
+}
+#video{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	-webkit-filter: blur(10px;)
+}
+.text-white{
+	color: white;
+}
+.nav-top{
+	margin-top: 100px;
+}

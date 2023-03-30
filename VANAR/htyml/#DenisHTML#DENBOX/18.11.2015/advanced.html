@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Advanced Selectors</title>
+	<style>
+		body{
+			background-color: darkslategray;
+		}
+		#main-menu{
+			background-color: aliceblue;
+		}
+		#secondary-menu{
+			background-color: brown;
+		}
+		li{
+			list-style: none;/*Без точек*/
+		}
+		a{
+			text-decoration: none;/*Без подчёркивания*/
+		}
+		#main-menu a{
+			color:black;
+		}
+		#secondary-menu a{
+			color:cornsilk;
+		}
+		a[href=""]{
+			text-decoration: line-through;/*Перечёркивает только те в которых нет ссылок*/
+		}
+		#main-menu,
+		#secondary-menu
+		{
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	
+	
+	<ul id="main-menu">
+		<li><a href="1.html">HTML</a></li>
+		<li><a href="">CSS</a></li>
+		<li><a href="">Javascript</a></li>
+		<li><a href="2.html">Flash</a></li>
+		<li><a href="">PHP</a></li>
+	</ul>
+	
+	<ul id="secondary-menu">
+		<li><a href="">Web designer</a></li>
+		<li><a href="">Web developer</a></li>
+		<li><a href="">SEO specialist</a></li>
+		<li><a href="">Graphic designer</a></li>
+		<li><a href="">Trainer</a></li>
+		<li><a href="">Analyst</a></li>
+		<li><a href="">Manager</a></li>
+	</ul>
+	
+	
+</body>
+</html>
