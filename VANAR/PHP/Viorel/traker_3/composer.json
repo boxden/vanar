@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twig/twig": "~1.0",
+        "ramsey/uuid": "^3.5",
+        "moontoast/math": "^1.1"
+    }
+}

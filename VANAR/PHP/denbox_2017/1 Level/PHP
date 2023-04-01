@@ -1,0 +1,91 @@
+page.html -> response -> (parse)
+page.php  -> PROCESS (PHP) -> response -> (parse)
+
+
+Syntax
+
+
+// line comment
+
+/*
+block comment
+*/
+
+expression1;
+expression2;
+expression3;
+ - reserved words (if,else,for,while,const,function,...)
+ - values (1000,"hello",0xFF,...)
+ - operators (+,-,*,/,%, &&,++,--)
+ - identifiers ($variable,CONSTANTS,functions(),...)
+ - spacers (space,newline,tabs,...)
+ - {} -> block/container
+
+
+print 2 + 2;
+print "\n";
+print "hello\n";
+echo  "PHP";
+
+
+// data types
+// Boolean -> true/false
+// Integers 1000-, -100, // 1000
+//          0x0FF // hex
+//          0777
+//          0b1101010101;
+// Floats   0.25,-0,0001, 1.0e+4 MDL;
+// Strings  'Hello, this is string'
+//          "Hello, this is string"
+
+// Hard--
+// Arrays   [100,200,300]
+// Iterablse
+// Objects  structured data (properties/methods())
+// Resousces (files.databases,...)
+// NULL     -> void/empty
+// Callback / Callables -> function
+
+
+//  dynamic typing + strict typing
+
+print 2 + 2;
+print 0.5 * 10;
+print "Hello";
+print true;
+
+//  - variables
+//  - constants
+
+$water_price     = 8.5;   // MDL
+$volume_of_water = 1000; // L
+
+const WATER_SERIES = 1234;
+const PI           = 3.14;
+
+//*
+
+=========================================================
+
+// ============= DATA
+$semestr_1 = 9;
+$semestr_2 = 8;
+$examen    = 9;
+// ============= CALCULATIONS
+$sredn     = (int)(($semestr_1+$semestr_2+$examen)/3);
+// $result = (type) expression;
+// ============= DISPLAY
+print $sredn;
+
+
+
+// ============= DATA
+$name      ='Ivan Jorin';
+$semestr_1 = 9;
+$semestr_2 = 8;
+$examen    = 9;
+// ============= CALCULATIONS
+$sredn     = (int)(($semestr_1+$semestr_2+$examen)/3);
+// $result = (type) expression;
+// ============= DISPLAY
+print "Srednaia ocenka ucenika \"$name\" = $sredn"; // interpolation

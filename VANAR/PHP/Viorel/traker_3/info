@@ -1,0 +1,8 @@
+traker/torrent project
+OOP,JSON,MVC(MODEL,View, Controller,Roter)
+
+browser<----->site(index.php)
+
+index.php ->> front router/front controller ....
+app/      -> your php filse (read/execute)
+public /  -> your CSS,images,js (read/execute/write)

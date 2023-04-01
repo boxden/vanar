@@ -1,0 +1,187 @@
+// operators
+  // comparison
+  // < > <= >=
+  // == value
+  // === idenctic Строго
+  // != not equal
+  // !== not identic
+  // <=> spaceship / s[aship
+  print 7 == 7;
+  print "\n";
+  print 7 == "7";
+  print "\n";
+  print 7 === "7"; // false
+  print "\n";
+  print 7 ===  7;
+\==\==\==\==\==\\==\==\==\==\==\
+  Print 8 <==> 7000;
+
+// operators
+  // string
+  // . -> concat
+  $a = 10;
+  $b = 20;
+
+  print "multiplication = " . ( $a*$b ) . '. The end! ;).';
+  .......................................................................
+  // operators
+    // Assignment
+    // . -> concat
+    $a = 10;
+    $b = 20;
+    $x = $y = $z = 100;
+    print "$x $y $z\n";
+    print "multiplication = " . ( $a*$b ) . '. The end! ;).';
+
+    // compact
+    // ++,-- !!! postfix, prefix
+
+    $likes = 1000;
+    $likes++; // $likes = $likes + 1;
+
+    print "You have $likes likes";
+
+    // END
+
+    //
+    $likes--;
+    $likes--; // dislikes
+    $likes--;
+
+  %%%%%%%%%%%%%%%%%%%
+
+    // +=, -=, *=, /=,...
+    $likes = 1000;
+    $likes -= 50;
+
+    print "You have $likes likes";
+
+    $message = "Hello";
+    $message .= "PHP";
+
+    Print $message;
+
+
+    $message = "Hello";
+    print $message . "PHP";
+    print $message;
+
+// operators
+    // Logical
+    // and && -> AND 1 * 1
+    print true && true && false; - false
+    // or ||
+    print true || false or true ; - true
+    // ! not
+    print !!!true;
+    // xor ^^
+    echo true xor true; хотя бы одна правда должна быть что бы было true
+
+    // Bitwise Operators
+    // & -> and
+    // | -> or
+    // ^ -> xor
+    // ~ -> not
+
+    // << - left shift
+    // >> - right shift
+
+    print 7 >> 2;
+    // ...0000000111 >>> ...000000000001;
+    print 7 << 2;
+    // ...0000000111 <<< ...000000011100;
+
+    // FLAG -> CHECKBOX
+
+// operators
+    // Error Control
+
+    // @ -> Этот опиратор не относиться к синтаксическим ошибкам
+            и не к Критическим ошибкам
+    // @ -> !!! syntax errors/ critical
+
+    print $title;
+    print "END";
+     [
+    Добавив оператор @$title Проигнорит ошибку "@"
+     ]
+
+// operators
+    // `shutdown`
+    // `reboot`
+    echo `reboot`
+    echo `ls -al /`;
+    echo `cat /ect/passwd`; Входы
+
+  !@#@!  mkdir name - windows create folder
+
+// flow control
+
+// branching
+  // if/else
+  // switch/case
+  // ? operators -> if/esle
+
+
+
+// looping
+  // while
+  // do while
+  // for
+
+
+///////////////////
+  if( condition/expression ){
+    //true
+  }else{
+    //false
+  }
+///////////////////
+
+/// TROL
+const ROUTE          = "30 - Airport";
+const MAX_PASSANGERS = 40;
+      $passangers    = 0;
+/// Airport
+      $stop_1_passangers = 15;
+      print "AIRPORT : $stop_1_passangers waiting passangers.\n";
+      $passangers += $stop_1_passangers;
+      print "TROL : $passangers passangers inside.\n";
+
+      Добавить Иф поместить в трол до 40 людей
+      и должен вывести предупреждение что мало место
+
+
+Задание
+
+/// TROL
+const ROUTE          = " 30 - Airport";
+const MAX_PASSANGERS = 40;
+      $passangers     = 2;
+/// Airport
+    $stop_1_passangers = 65;
+    print "Airport : $stop_1_passangers waiting passangers.\n";
+    $free_seats = MAX_PASSANGERS - $passangers;
+    if( $free_seats > 0 ){
+        $passangers        += $free_seats;
+        $stop_1_passangers -= $free_seats;
+        print "TROL : $passangers passangers inside.\n";
+        print "STOP : $stop_1_passangers left.\n";
+    } else {
+        print "Too many passangers.\n";
+    }
+
+    Это было правильное задание
+
+
+    Домашние задание
+
+    посмотреть на конструкцию switch
+    // TROL- switch
+    print false; //-> '';
+    //var_dump(), print_r();
+    var_dump( false );
+    //print_r( false );
+    //echo, print -> string
+    print true;
+    var_dump ( true );

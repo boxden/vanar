@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudoselectors</title>
+  <style>
+  header{
+    width: 1200px;
+    height: 650px;
+    background-color: black;
+  }
+  body{
+
+  }
+  #slider{
+    width: 880px;
+    height: 650px;
+    float: left;
+    background-image:url(5.jpg);
+    background-position: bottom;
+    opacity: 0.7;
+
+  }
+  #book{
+   width:320px;
+   height: 650px;
+   background-color: #243479;
+   float: right;
+
+  }
+  #slider:hover{
+      opacity: 1;
+    }
+  #slider::before{
+    content: "\2770";
+    font-size: 50px;
+  }
+  #slider::after{
+    content:"\2771";
+    font-size: 50px;
+  }
+  </style>
+</head>
+<body>
+<header>
+
+  <div id="slider"></div>
+  <div id="book">
+<form>
+    <h2>ЗАБРОНИРУЙТЕ</h2>
+    <h2>ВАШ РЕЙС</h2>
+
+  <input type="radio" name="var" value="" checked="checked">ТУДА И ОБРАТНО
+  <input type="radio" name="var" value="">В ОДНУ СТОРОНУ
+
+<select class="" name="">
+  <option>ОТКУДА</option>
+  <option>КУДА</option>
+</select>
+<br>
+<select class="" name="">
+  <option>КУДА</option>
+  <option>ОТКУДА</option>
+</select>
+<br>
+<input type="checkbox">ДОБАВИТЬ БЕСПЛАТНЫЙ ТРАНСФЕР ИЗ БЕЛЬЦ
+</form>
+  </div>
+</header>
+
+
+</body>
+</html>

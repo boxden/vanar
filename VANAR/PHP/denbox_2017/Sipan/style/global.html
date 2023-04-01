@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Global</title>
+  <style>
+     body{
+      background-color: black;
+      color:white;
+      width: 360px;
+     }
+    p{
+      background-color:green;
+      font-size: 20p;
+      width: 100px;
+      height:100px;
+      float: left;
+      margin: 10px;
+    }
+   .row{
+      background-color: red;
+    }
+   .col{
+     border-radius: 50px;
+    }
+   #first{
+     border-radius: 50px 0 0 0;
+    }
+    #last{
+      border-radius: 0 0 50px 0;
+    }
+    #tri{border-radius: 0 50px 0 0;
+    }
+    #semi{
+      border-radius: 0 0 0 50px;
+    }
+  </style>
+</head>
+
+<body>
+<P id="first">1</P>
+<P class="col">2</P>
+<P id="tri">3</P>
+<P class="row">4</P>
+<P class="row col">5</P>
+<P class="row">6</P>
+<P id="semi">7</P>
+<P class="col">8</P>
+<P id="last">9</P>
+
+
+</body>
+</html>

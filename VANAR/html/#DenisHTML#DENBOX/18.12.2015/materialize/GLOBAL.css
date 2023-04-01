@@ -1,0 +1,25 @@
+
+header {
+	background-image:url(images/bg.jpg);
+	height: 800px;
+}
+nav{
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.container {
+	color:white;
+}
+
+.text {
+	color: black;
+}
+
+.url {
+	color: darkgoldenrod;
+}
+.fa-compass {
+	color: darkgoldenrod;
+	font-size: 60px;
+}

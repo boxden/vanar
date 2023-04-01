@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3tochki</title>
+  <style>
+#tritochki{
+width: 180px;
+height: 180px;
+background-color: #e74c3c;
+}
+#tochka1{
+  width: 6px;
+  height: 6px;
+  color: white;
+  border: solid 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 65px;
+  left: 90px;
+  animation: pulse 1s infinite;
+}
+#tochka2{
+  width: 6px;
+  height: 6px;
+  color: white;
+  border: solid 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 115px;
+  left: 65px;
+  animation: pulse2 1s infinite;
+}
+#tochka3{
+  width: 6px;
+  height: 6px;
+  color: white;
+  border: solid 2px;
+  border-radius: 100%;
+  position: absolute;
+  top: 115px;
+  left: 115px;
+  animation: pulse3 1s infinite;
+}
+
+
+@keyframes pulse{
+  from{
+    position: absolute;
+    top: 65px;
+    left: 90px;
+  }
+    to{
+    position: absolute;
+    top: 115px;
+    left: 115px;
+    }
+}
+@keyframes pulse2{
+  from{
+    position: absolute;
+    top: 115px;
+    left: 65px;
+  }
+    to{
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    }
+}
+@keyframes pulse3{
+  from{
+    position: absolute;
+    top: 115px;
+    left: 115px;
+  }
+    to{
+    position: absolute;
+    top: 115px;
+    left: 65px;
+    }
+}
+
+
+  </style>
+
+</head>
+
+<body>
+<div id="tritochki">
+<div id="tochka1"></div>
+<div id="tochka2"></div>
+<div id="tochka3"></div>
+
+</div>
+
+</body>
+</html>
