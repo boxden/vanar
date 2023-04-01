@@ -1,0 +1,38 @@
+dom html
+mdn
+абстрактный калласс
+ТАк же от класса нот имеет свойства
+getElementById
+var myLink = document.getElementById(" my-link");
+// my Link (Node\Element\HTMLElement\)
+/////////////////////////////////////////
+alert( myLink )
+/////////////////////////////////////////
+myLink instanceof Element
+--- являеться ли он Елемент ---
+vk.removeAttribute
+
+h2
+a
+узнать типы елемента h2
+из обеих елементов удалить itemprop
+поменять значение ссылки на другой
+добавить в класс h2 добавить ещё один класс red
+добавить ссылки индитификатор title
+
+результат должен быть таким
+
+<h2 class="post-big-block-title red">
+  <a id="title" href="/ru/novosti/v-mire/kemerov-podal-v-otstavku-posle-referenduma-3">
+  Кэмерон подал в отставку после референдума
+  </a>
+</h2>
+=============================================
+document.createElement()
+element.appendChild()
+element.removeChild()
+document.createElement("img")
+var i = document.createElement("img")
+i.src = "1.jpg"
+document.body.innerHTML=""
+document.body.appendChild( i )

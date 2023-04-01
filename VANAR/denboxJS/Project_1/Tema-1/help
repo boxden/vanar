@@ -1,0 +1,26 @@
+document.title -> <title>
+document.body  -> <body>
+
+window.frames ->
+
+learn.javascript.ru/dom-nodes
+
+document.documentElement
+
+DOM -> nodes / Elements
+в режиме узлов доспутны хтмл елементы а также комменты
+
+
+если рассматривать с точки елементов тогда комментарии елементы не видны
+
+nextSibling - следующий сосед
+previousSibling - прошлый сосед
+
+сущес для быстрой навигации getElement
+document.getElementById
+document.getElementByClassName("myclass")
+document.getELementByTagName("p") Найти все <p></p>
+document.querySelector("selector CSS")
+document.querySelectorAll("selector CSS")
+
+На дом надо learn.javascript.ru/dom-nodes - Прочитать на дом задание

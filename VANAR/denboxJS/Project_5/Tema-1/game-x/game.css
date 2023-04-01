@@ -1,0 +1,42 @@
+body{
+  background-color: #000;
+}
+#stage{
+  width: 800px;
+  height: 600px;
+  border: 10px solid blue;
+  position: absolute; margin:auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.money{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_attach_money_white_24px.svg);
+}
+.person{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_person_pin_white_24px.svg);
+}
+.bomb{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_bug_report_white_24px.svg);
+}
+.shield{
+  width: 24px;
+  height: 24px;
+  background-image: url(svg/ic_verified_user_white_24px.svg);
+}
+.free{
+  width: 22px;
+  height: 22px;
+  border: 1px dotted blue;
+  background: darkblue;
+}
+#stage>div{
+  float: left;
+}

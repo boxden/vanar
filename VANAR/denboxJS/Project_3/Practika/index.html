@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Example</title>
+</head>
+<body>
+
+
+<!--  ul>li*3>a{link $} -->
+
+<nav>
+  <div>
+    <ul onclick="handler()">
+      <li><a href="http://vanar.md" onclick="handler()" >Vanar</a></li>
+      <li><a href="http://youtube.com" onclick="handler()">YouTube</a></li>
+      <li><a href="http://learn.javascript.ru" onclick="handler()">javascript ru</a></li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  function handler(){
+    window.event.preventDefault();
+    var element = window.event.target;
+    console.log( "EVENT!!! born in ", element );
+    if( element.tagName == "A"){
+      element.style.background = "red";
+    }
+    console.log( "EVENT!!! captured in " , window.event.correntTarget );
+  }
+</script>
+</body>
+</html>

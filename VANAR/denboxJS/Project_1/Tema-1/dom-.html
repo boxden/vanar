@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Example DOM navication</title>
+</head>
+<body>
+  <!-- Good example! -->
+  <h1>Hello DOM</h1>
+  <!-- this was the title -->
+  <ul>
+    <li><a href="">Link 1</a></li>
+    <li><a href="">Link 2</a></li>
+    <li><a id="link-3" href="">Link 3<br>sublink</a></li>
+  </ul>
+  <hr>
+  <div>
+    <!-- container 1 -->
+    <div>Container 1</div>
+    <!-- container 2 -->
+    <div>Container 2</div>
+  </div>
+
+</body>
+</html>
+document.querySelector("#link-3")
+document.getElementById("link-3").parentElement
